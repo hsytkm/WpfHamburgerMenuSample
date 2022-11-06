@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Icons\camera.png" />
+    <Resource Include="Assets\Icons\camera-iris.png" />
+    <Resource Include="Assets\Icons\circle-opacity.png" />
+    <Resource Include="Assets\Icons\cog-outline.png" />
+    <Resource Include="Assets\Icons\film.png" />
+  </ItemGroup>
+</Project>
